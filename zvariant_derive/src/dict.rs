@@ -5,7 +5,7 @@ use zvariant_utils::macros;
 
 use crate::utils::*;
 
-fn dict_name_for_field(
+pub(crate) fn dict_name_for_field(
     f: &Field,
     rename_attr: Option<String>,
     rename_all_attr: Option<&str>,
